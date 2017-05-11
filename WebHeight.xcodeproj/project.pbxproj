@@ -15,6 +15,7 @@
 		027E0A0C1EC314E00039627F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027E0A0A1EC314E00039627F /* LaunchScreen.storyboard */; };
 		027E0A171EC314E00039627F /* WebHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 027E0A161EC314E00039627F /* WebHeightTests.m */; };
 		027E0A221EC314E00039627F /* WebHeightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 027E0A211EC314E00039627F /* WebHeightUITests.m */; };
+		027E0A341EC31A250039627F /* HXWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 027E0A331EC31A250039627F /* HXWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		027E0A1D1EC314E00039627F /* WebHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		027E0A211EC314E00039627F /* WebHeightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebHeightUITests.m; sourceTree = "<group>"; };
 		027E0A231EC314E00039627F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		027E0A321EC31A250039627F /* HXWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWebView.h; sourceTree = "<group>"; };
+		027E0A331EC31A250039627F /* HXWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWebView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +108,8 @@
 				027E0A001EC314E00039627F /* AppDelegate.m */,
 				027E0A021EC314E00039627F /* ViewController.h */,
 				027E0A031EC314E00039627F /* ViewController.m */,
-				027E0A051EC314E00039627F /* Main.storyboard */,
-				027E0A081EC314E00039627F /* Assets.xcassets */,
-				027E0A0A1EC314E00039627F /* LaunchScreen.storyboard */,
-				027E0A0D1EC314E00039627F /* Info.plist */,
+				027E0A321EC31A250039627F /* HXWebView.h */,
+				027E0A331EC31A250039627F /* HXWebView.m */,
 				027E09FC1EC314E00039627F /* Supporting Files */,
 			);
 			path = WebHeight;
@@ -117,6 +118,10 @@
 		027E09FC1EC314E00039627F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				027E0A051EC314E00039627F /* Main.storyboard */,
+				027E0A081EC314E00039627F /* Assets.xcassets */,
+				027E0A0A1EC314E00039627F /* LaunchScreen.storyboard */,
+				027E0A0D1EC314E00039627F /* Info.plist */,
 				027E09FD1EC314E00039627F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -279,6 +284,7 @@
 				027E0A041EC314E00039627F /* ViewController.m in Sources */,
 				027E0A011EC314E00039627F /* AppDelegate.m in Sources */,
 				027E09FE1EC314E00039627F /* main.m in Sources */,
+				027E0A341EC31A250039627F /* HXWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
